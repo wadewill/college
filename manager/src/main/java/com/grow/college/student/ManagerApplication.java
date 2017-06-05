@@ -11,15 +11,15 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
  */
 @EnableConfigurationProperties
 @SpringBootApplication
-public class StudentApplication extends SpringBootServletInitializer {
+public class ManagerApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
-        System.out.println("================学生服务端启动===============");
-        SpringApplication.run(StudentApplication.class, args);
-        System.out.println("================学生服务端启动完成===============");
+        System.out.println("================管理端启动===============");
+        SpringApplication.run(ManagerApplication.class, args);
+        System.out.println("================管理端启动完成===============");
     }
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(StudentApplication.class).properties("spring");
+        return application.sources(ManagerApplication.class).properties("spring");
     }
 }

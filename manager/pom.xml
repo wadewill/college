@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.grow.college</groupId>
-	<artifactId>student</artifactId>
+	<artifactId>manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>student</name>
-	<description>student project jar</description>
+	<name>manager</name>
+	<description>manager project jar</description>
 
 	<parent>
 		<groupId>com.grow.college</groupId>
