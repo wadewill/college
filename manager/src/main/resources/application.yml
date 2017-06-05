@@ -1,0 +1,65 @@
+spring:
+#  thymeleaf:
+#    cache: false
+  freemarker:
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    charset: utf-8
+    content-type: text/html
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+    multipart:
+      max-file-size: 100mb
+      max-request-size: 1000mb
+  jpa:
+    open-in-view: true
+    show-sql: true
+    database-platform: MYSQL
+    database: mysql
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+        hibernate:
+          format_sql: true
+          dialect: org.hibernate.dialect.MySQL5Dialect
+  data:
+    jpa:
+      repositories:
+        enabled: true
+
+  mvc:
+    favicon:
+      enabled: true
+
+  profiles:
+    active: dev
+    #active: test
+    #active: product
+
+#logging:
+#  level: debug
+server:
+  port: 9090
+  # 默认 /
+  # context-path: /
+  display-name: machine-account
+  session:
+    # session过期时间，秒单位
+    timeout: 6000
+  error:
+    path: /404.html
+
+management:
+  security:
+    enabled: false
+
+

@@ -25,7 +25,7 @@
 
     <modules>
         <module>base</module>
-        <!--<module>zj-icbc</module>-->
+        <module>manager</module>
         <module>student</module>
     </modules>
 
