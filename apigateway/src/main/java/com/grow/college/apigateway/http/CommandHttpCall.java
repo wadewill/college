@@ -12,6 +12,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
+ * api转发路由
  * Created by chen on 17-6-6.
  */
 public class CommandHttpCall extends HystrixCommand<String>{

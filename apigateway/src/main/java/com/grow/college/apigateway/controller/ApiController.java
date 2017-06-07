@@ -12,6 +12,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/api/")
 public class ApiController {
 
+    /**
+     * app对外统一接口
+     * 1.token验证
+     * 2.参数正确验证
+     * 3.参数合法性
+     * 4.日志
+     * @param data
+     * @return
+     */
     @RequestMapping("/common")
     @ResponseBody
     public Object api(String data){
