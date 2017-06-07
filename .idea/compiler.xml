@@ -12,6 +12,7 @@
         <module name="manager" />
         <module name="student" />
         <module name="student (1)" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="manager" target="1.8" />
       <module name="student" target="1.8" />
       <module name="student (1)" target="1.8" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

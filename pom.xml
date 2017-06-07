@@ -24,9 +24,12 @@
     </properties>
 
     <modules>
+        <module>apigateway</module>
         <module>base</module>
         <module>manager</module>
         <module>student</module>
+        <module>eureka</module>
+        <module>test</module>
     </modules>
 
     <dependencies>
