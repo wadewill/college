@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apigateway" />
         <module name="base" />
+        <module name="eureka" />
         <module name="manager" />
         <module name="student" />
         <module name="student (1)" />
@@ -17,6 +18,7 @@
       <module name="apigateway" target="1.8" />
       <module name="base" target="1.8" />
       <module name="college" target="1.8" />
+      <module name="eureka" target="1.8" />
       <module name="manager" target="1.8" />
       <module name="student" target="1.8" />
       <module name="student (1)" target="1.8" />
