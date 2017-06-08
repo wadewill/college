@@ -3,7 +3,7 @@ spring:
     name: student #该值用来作为InquiryBankController具体实现类Controller的@RequestMapping前缀，不同接入行配置不同的applicationName
   datasource:
     name: student
-    url: jdbc:mysql://10.10.13.7:3306/account_dispatcher?autoReconnect=true&useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/college?autoReconnect=true&useUnicode=yes&characterEncoding=UTF-8
     username: devuser
     password: devuser
     initialize: true

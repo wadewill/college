@@ -29,7 +29,7 @@
         <module>manager</module>
         <module>student</module>
         <module>eureka</module>
-        <module>test</module>
+        <!--<module>test</module>-->
     </modules>
 
     <dependencies>
